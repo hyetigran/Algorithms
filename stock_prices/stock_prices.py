@@ -5,7 +5,6 @@ import argparse
 
 def find_max_profit(prices):
     max_price = -100000
-    current_min = 0
 
     if len(prices) < 2:
         return "Not enough information provided"
